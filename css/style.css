@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.container {
+  width: 95%;
+  height: 100vh;
+  margin: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  height: 500px;
+  width: 370px;
+  margin: auto;
+  border-radius: 2px;
+  background: #f2f2f2;
+  padding: 15px 15px 20px 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+#userInput {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40px 5px;
+  background: whitesmoke;
+  text-align: right;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  width: 24%;
+  height: 45px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  background: whitesmoke;
+}
+
+.Additionbtn,
+.Subtractionbtn,
+.Multiplicationbtn,
+.Divisionbtn {
+  background: #ffb84d;
+  width: 24%;
+  height: 45px;
+  outline: none;
+  border: none;
+  margin-top: 3px;
+}
+
+.Additionbtn:hover,
+.Subtractionbtn:hover,
+.Multiplicationbtn:hover,
+.Divisionbtn:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.btnEqual {
+  width: 99.2%;
+  height: 45px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  background: whitesmoke;
+}
+
+.btn:hover,
+.btnEqual:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 23.4%;
+  }
+
+  .Additionbtn,
+  .Subtractionbtn,
+  .Multiplicationbtn,
+  .Divisionbtn {
+    width: 23.4%;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn {
+    width: 23%;
+  }
+
+  .Additionbtn,
+  .Subtractionbtn,
+  .Multiplicationbtn,
+  .Divisionbtn {
+    width: 23.4%;
+  }
+}
